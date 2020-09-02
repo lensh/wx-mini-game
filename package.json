@@ -1,0 +1,63 @@
+{
+  "name": "myApp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "tets",
+  "templateInfo": {
+    "name": "default",
+    "typescript": true,
+    "css": "less"
+  },
+  "scripts": {
+    "build:weapp": "taro build --type weapp",
+    "build:swan": "taro build --type swan",
+    "build:alipay": "taro build --type alipay",
+    "build:tt": "taro build --type tt",
+    "build:h5": "taro build --type h5",
+    "build:rn": "taro build --type rn",
+    "build:qq": "taro build --type qq",
+    "build:jd": "taro build --type jd",
+    "build:quickapp": "taro build --type quickapp",
+    "dev:weapp": "yarn build:weapp -- --watch",
+    "dev:swan": "yarn build:swan -- --watch",
+    "dev:alipay": "yarn build:alipay -- --watch",
+    "dev:tt": "yarn build:tt -- --watch",
+    "dev:h5": "yarn build:h5 -- --watch",
+    "dev:rn": "yarn build:rn -- --watch",
+    "dev:qq": "yarn build:qq -- --watch",
+    "dev:jd": "yarn build:jd -- --watch",
+    "dev:quickapp": "yarn build:quickapp -- --watch"
+  },
+  "browserslist": [
+    "last 3 versions",
+    "Android >= 4.1",
+    "ios >= 8"
+  ],
+  "author": "",
+  "dependencies": {
+    "@babel/runtime": "^7.7.7",
+    "@tarojs/components": "3.0.7",
+    "@tarojs/runtime": "3.0.7",
+    "@tarojs/taro": "3.0.7",
+    "@tarojs/react": "3.0.7",
+    "react-dom": "^16.10.0",
+    "react": "^16.10.0"
+  },
+  "devDependencies": {
+    "@types/webpack-env": "^1.13.6",
+    "@types/react": "^16.0.0",
+    "@tarojs/mini-runner": "3.0.7",
+    "@babel/core": "^7.8.0",
+    "@tarojs/webpack-runner": "3.0.7",
+    "babel-preset-taro": "3.0.7",
+    "eslint-config-taro": "3.0.7",
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.8.2",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-react-hooks": "^1.6.1",
+    "stylelint": "9.3.0",
+    "@typescript-eslint/parser": "^2.x",
+    "@typescript-eslint/eslint-plugin": "^2.x",
+    "typescript": "^3.7.0"
+  }
+}
